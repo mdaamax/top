@@ -1,9 +1,10 @@
-.box{
+.box {
     background: green;
     width: 20px;
     height: 20px;
 }
-.yellow{
+
+.yellow {
     position: relative;
     width: 200px;
     height: 200px;
@@ -11,48 +12,57 @@
     background: yellow;
     padding: 20px;
 }
-#left_top{
+
+#left_top {
     position: absolute;
     top: 0;
     left: 0;
-}
-#top{
+ }
+
+#top {
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 110px;
 }
-#right_top{
+
+#right_top {
     position: absolute;
     top: 0;
     right: 0;
 }
-#left{
+
+#left {
     position: absolute;
-    top: 50%;
+    top: 110px;
     left: 0;
 }
-#center{
+
+#center {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 110px;
+    left: 110px;
 }
-#right{
+
+#right {
     position: absolute;
-    top: 50%;
-    right: 0%;
+    top: 110px;
+    right: 0;
 }
-#left_bottom{
-    position:absolute;
-    left: 0%;
-    bottom:0;
+
+#left_bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
-#bottom{
-    position:absolute;
-    left: 0%;
-    bottom:0;
+
+#bottom {
+    position: absolute;
+    left: 110px;
+    bottom: 0;
 }
-#right_bottom{
-    position:absolute;
-    left: 0%;
-    bottom:0;
+
+#right_bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
